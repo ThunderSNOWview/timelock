@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+**/node_modules/
+package-lock.json
+yarn.lock
+frontend/node_modules/
+frontend/package-lock.json
+frontend/yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+!.env.example
+!frontend/.env.example
+
+# Build outputs
+cache/
+typechain-types/
+
+# Hardhat
+coverage/
+coverage.json
+.openzeppelin/
+deployments/*/solcInputs/
+
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+.nyc_output/
+test-results/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Private keys and sensitive data
+*.key
+*.pem
+private-keys/
+
+# Deployment artifacts (keep deployment JSONs but ignore build info)
+artifacts/build-info/
